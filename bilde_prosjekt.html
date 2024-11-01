@@ -70,6 +70,117 @@
             color: white;
             transition: 0.4s ease-in-out;
         }
+
+    .sec3 {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(35deg, #ebc3f0, #62e88b);
+    }
+
+
+
+    .komphead {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        color: white;
+    }
+
+    .komphead1 {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 60px;
+        color: white;
+    }
+
+    .komp {
+        display: flex;
+        gap: 150px;
+        margin: 20px 0;
+        justify-content: center;
+
+    }
+
+    .komphead2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .box {
+        padding: 15px;
+        border-radius: 30px;
+        background-color: white;
+        height: 300px;
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: solid rgb(242, 242, 242) 2px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+
+    }
+
+    .box:hover {
+        transform: scale(1.1) translateY(-0px);
+        background-color: #f0f8ff;
+
+    }
+
+    .p1 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        line-height: 1.9;
+    }
+
+    .row1 {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+
+    }
+
+    .row1 img {
+        height: 300px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    .rowcontainer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .slide img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .fade {
+        animation: fadeIn 4s ease forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     </style>
 </head>
 
@@ -77,7 +188,7 @@
 
     <header class="meny">
         <ul>
-            <li><a href="bilde_prosjekt.html"><img src="homeicon.png" alt="icon"></a></li>
+            
             <li><a href="side1.html">Page 1</a></li>
             <li><a href="kompresjon.html">Page 2</a></li>
             <li><a href="teodor.html">Page 3</a></li>
@@ -96,6 +207,57 @@
 
     </div>
 
+    <section class="sec3">
+
+        <div class="fade">
+            <h3 class="komphead">To Typer Kompresjon Av Bilder</h3>
+
+            <div class="komp">
+                <div class="box">
+                    <h3 class="komphead2">Tapfri Kompresjon</h3>
+                    <p class="p1">Tapfri kompresjon er en metode som reduserer filstørrelsen uten å miste noen data,
+                        noe som betyr at den originale kvaliteten kan gjenopprettes helt.
+                        Vanlige formater for tapfri kompresjon inkluderer PNG og TIFF.</p>
+                    <img src="">
+                </div>
+                <div class="box">
+                    <h3 class="komphead2">Destruktiv Kompresjon</h3>
+                    <p class="p1">Destruktiv kompresjon fjerner noen data fra filen for å oppnå en betydelig reduksjon i
+                        størrelse,
+                        noe som kan føre til tap av kvalitet, spesielt ved gjentatt lagring.
+                        Populære formater for destruktiv kompresjon inkluderer JPEG og MP3.</p>
+                    <img src="">
+                </div>
+            </div>
+
+            <h3 class="komphead1">Komprimerte Bilde Eksempler:</h3>
+        </div>
+        <div class="fade">
+            <div class="rowcontainer">
+                <div class="row1">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                    <img src="boy.jpeg" alt="">
+
+                </div>
+            </div>
+            <div class="fade">
+    </section>
+
+    
 </body>
 
 </html>
