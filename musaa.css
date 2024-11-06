@@ -1,0 +1,91 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+}
+
+#albumoverskrift {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: skyblue;
+}
+
+
+
+.meg {
+    
+
+    width: 60%;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    border: 2px solid #5D7290;
+
+    margin-bottom: 0px;
+
+    background-color: #A3C1DA;
+
+    float: right;
+
+    
+
+
+
+
+}
+
+
+
+.boxi{
+   
+
+    width: 100%;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+    display: flex;
+
+    align-items: top;
+
+   
+
+   
+
+    margin-bottom: 0px;
+
+    background-color: #A3C1DA;
+   
+
+  
+
+}
+
+.meg h2{
+    font-size: 20px; 
+    text-align: center;  
+    font-weight: bold
+}
+.meg img{
+    width: 30%;
+    height: 30%;
+}
+.meg img:hover{
+    width: 50%;
+    height: 50%;
+}
