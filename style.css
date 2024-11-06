@@ -1,0 +1,95 @@
+ .bilde1side {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Grid-oppsett */
+        .ftcontainer {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);  
+            grid-template-rows: repeat(5, 1fr);   
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Boks-stiler */
+        .ftcontainer > div {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            transition: transform 0.3s; 
+             background-size: cover;
+            background-position: center;
+        }
+
+
+    /* Bilder-boksen */
+        .bilder {
+            background-color: #f5f5dc;
+            color: #4169e1;
+        }
+
+        .bilder a {
+            text-decoration: none;
+            color: #4169e1; 
+        }
+
+        /* Hover-effekt på boksen */
+        .bilder:hover {
+            transform: scale(3.5);
+            background-image: url('blipp/ras.webp');
+            background-size: cover; ; 
+           
+        }
+
+
+        .b15:hover{
+             background-image: url('blipp/ras.webp');
+            background-size: cover; ; 
+
+        }
+
+        .b19:hover{
+             background-image: url('blipp/ras.webp');
+            background-size: cover; ; 
+
+        }
+
+        .b2:hover{
+             background-image: url('blipp/ras.webp');
+            background-size: cover; ; 
+
+        }
+
+
+         .b1 { background-image: url('blipp/b1.webp'); }
+        .b2 { background-image: url('blipp/b2.webp'); }
+        .b3 { background-image: url('blipp/b3.jpg'); }
+        .b4 { background-image: url('blipp/b4.jpg'); }
+        .b5 { background-image: url('blipp/b5.png'); }
+        .b6 { background-image: url('blipp/b6.jpg'); }
+        .b7 { background-image: url('blipp/b7.webp.jpeg'); }
+        .b8 { background-image: url('blipp/b8.webp.jpeg'); }
+        .b9 { background-image: url('blipp/b9.jpg'); }
+        .b10 { background-image: url('blipp/b10.jpeg'); }
+        .b11 { background-image: url('blipp/b11.jpg'); }
+        .b12 { background-image: url('blipp/b12.jpg'); }
+        .b14 { background-image: url('blipp/b14.jpg'); }
+        .b15 { background-image: url('blipp/b15.jpg.webp'); }
+        .b16 { background-image: url('blipp/b16.jpeg'); }
+        .b17 { background-image: url('blipp/b17.jpg'); }
+        .b18 { background-image: url('blipp/b18.jpg'); }
+        .b19 { background-image: url('blipp/b19.jpg'); }
+        .b20 { background-image: url('blipp/b20.jpeg'); }
+        .b21 { background-image: url('blipp/b21.jpeg'); }
+        .b22 { background-image: url('blipp/b22.jpeg'); }
+        .b23 { background-image: url('blipp/b23.jpeg'); }
+        .b24 { background-image: url('blipp/b24.jpeg'); }
+        .b25 { background-image: url('blipp/b25.jpeg'); }
