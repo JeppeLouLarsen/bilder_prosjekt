@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildepunkter</title>
+
+    <style>
+        .bildepunkter {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .liten {
+            text-align: center;
+        }
+
+        .container {
+            background-color: blue;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 20px;
+            margin: auto;
+        }
+
+        .container .container_overskrift {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .container .container_underskrift {
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .bilde {
+            background-image: url(bilder/bildepunkter.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+            height: 50vh;
+            border-radius: 10px;
+        }
+
+        .bilde_container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        #bilde_tre {
+            position: relative;
+            top: calc(50% - 10px);
+            left: calc(50% - 10px);
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            transition: width, 1.5s, heigth, 1.5s;
+            border: 2px solid rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        #bilde_tre:hover {
+            padding: 0;
+            top: 0;
+            left: 0;
+            border: 0;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .boks {
+            display: flex;
+        }
+
+        aside {
+            flex: 1;
+        }
+
+        main {
+            flex: 3;
+        }
+
+        .boks1 {
+            background-color: antiquewhite;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="boks">
+
+        <main>
+            <div class="overskrift">
+                <h1 class="bildepunkter">FORKLARING AV BILDEPUNKTER</h1>
+            </div>
+
+            <div class="container">
+                <h1 class="container_overskrift">FORKLARING</h1>
+                <p class="container_underskrift">bildepunkter er piksler altså.....</p>
+            </div>
+
+            <div class="bilde_container">
+                <div class="bilde">
+                    <img id="bilde_tre" src="bilder/bit-bilde.png" alt="">
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="boks1">
+                <H1>1</H1>
+                <p>bilde</p>
+            </div>
+            <div class="boks1">
+                <h1>2</h1>
+                <p>bilde</p>
+            </div>
+            <div class="boks1">
+                <h1>3</h1>
+                <p>bilde</p>
+            </div>
+            <div class="boks1">
+                <h1>4</h1>
+                <p>bilde</p>
+            </div>
+            <div class="boks1">
+                <h1>5</h1>
+                <p>bilde</p>
+            </div>
+        </aside>
+    </div>
+
+</body>
+
+</html>
