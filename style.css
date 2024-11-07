@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teodor</title>
-    <style>
-        /* Fullskjerm-layout */
-        .bilde1side {
+ .bilde1side {
             height: 100%;
             margin: 0;
             display: flex;
@@ -37,7 +29,8 @@
             background-position: center;
         }
 
-        /* Bilder-boksen */
+
+    /* Bilder-boksen */
         .bilder {
             background-color: #f5f5dc;
             color: #4169e1;
@@ -76,9 +69,6 @@
         }
 
 
-       
-
-
          .b1 { background-image: url('blipp/b1.webp'); }
         .b2 { background-image: url('blipp/b2.webp'); }
         .b3 { background-image: url('blipp/b3.jpg'); }
@@ -103,40 +93,3 @@
         .b23 { background-image: url('blipp/b23.jpeg'); }
         .b24 { background-image: url('blipp/b24.jpeg'); }
         .b25 { background-image: url('blipp/b25.jpeg'); }
-
-
-        
-        
-       
-    </style>
-</head>
-<body class="bilde1side">
-    <div class="ftcontainer">
-        <div class="b1"></div>
-        <div class="b2"></div>
-        <div class="b3"></div>
-        <div class="b4"></div>
-        <div class="b5"></div>
-        <div class="b6"></div>
-        <div class="b7"></div>
-        <div class="b8"></div>
-        <div class="b9"></div>
-        <div class="b10"></div>
-        <div class="b11"></div>
-        <div class="b12"></div>
-        <div class="bilder"><a href="side2.html">Bilder i html</a></div>
-        <div class="b14"></div>
-        <div class="b15"></div>
-        <div class="b16"></div>
-        <div class="b17"></div>
-        <div class="b18"></div>
-        <div class="b19"></div>
-        <div class="b20"></div>
-        <div class="b21"></div>
-        <div class="b22"></div>
-        <div class="b23"></div>
-        <div class="b24"></div>
-        <div class="b25"></div>
-    </div>
-</body>
-</html>
