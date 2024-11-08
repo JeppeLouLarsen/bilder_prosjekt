@@ -1,0 +1,257 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 45%;
+}
+
+#albumoverskrift {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: skyblue;
+}
+
+
+
+.meg {
+
+
+    width: 60%;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    border: 2px solid #5D7290;
+
+    margin-bottom: 0px;
+
+    background-color: #A3C1DA;
+}
+
+
+.boxi {
+
+    display: flex;
+
+    align-items: top;
+
+    border: 2px solid #5D7290;
+
+    background-color: #A3C1DA;
+
+}
+
+.meg h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
+}
+
+.meg img {
+    width: 30%;
+    height: 30%;
+}
+
+.meg img:hover {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+
+.hoved {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    font-family: "Crimson";
+
+}
+
+
+
+
+.topi {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Crimson";
+    margin-top: 75px;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Crimson";
+}
+
+
+
+.bitch {
+    background-image: url("Bilder/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* toppbar */
+.hjem {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 70px;
+    font-family: roboto, sans-serif;
+    text-decoration-line: none;
+    color: black;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px black;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.top:hover {
+    background-color: white;
+}
+
+.top a,
+.top span {
+    margin: 0;
+    padding: 25px;
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.dropdownmenu a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+/* droppdown menu */
+.dropdown {
+    display: block;
+    margin-left: 15px;
+}
+
+.dropdownmenu {
+    position: absolute;
+    right: 15px;
+    top: 100%;
+    background-color: white;
+    min-width: 98%;
+    z-index: 1;
+    text-align: center;
+    font-size: 10px;
+    font-family: roboto, sans-serif;
+    display: none;
+
+}
+
+
+
+.dropdown:hover .dropdownmenu {
+    display: block;
+}
+
+.fity {
+    height: 100%;
+}
+
+
+ion-icon {
+    color: black;
+    font-size: 50px;
+}
+
+
+
+
+/* boks imellom */
+
+.section {
+    box-sizing: border-box;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #1E3A5F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30%;
+
+
+}
+
+.fit {
+    width: 100%;
+
+}
+
+#footer .footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center
+}
+
+.p5 {
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: auto;
+    list-style: none;
+
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
