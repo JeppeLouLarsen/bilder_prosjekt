@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Forklaring</title>
+
+    <style>
+        body {
+            background-image: url(fuglebilde.webp);
+            background-size: cover;
+        }
+
+        .boks {
+            border: 5px solid #ffffff;
+            background-color: #81929b;
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            margin-left: 150px;
+            border-radius: 25px;
+            box-shadow: 0px 4px 8px black;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+        }
+
+        .boks:hover {
+            transform: scale(1.3);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            margin-left: 750px;
+            margin-top: -150px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 0px 4px 8px black;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 25px;
+
+
+        }
+
+        img:hover {
+            transform: scale(1.3);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .overskrift {
+            text-align: center;
+            font-size: 70px;
+            color: rgb(255, 255, 255);
+            font-size: 80px;
+            text-align: center;
+            border: 3px solid rgb(255, 255, 255);
+            background-color: #81929b;
+            margin-top: 100px;
+            box-shadow: 0px 4px 8px black;
+            transition: background 1.0s ease-in-out
+        }
+
+        .overskrift:hover {
+            background: linear-gradient(90deg, #f72b2b, #47ff3d, #445ce5);
+
+        }
+
+        .teksten {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="overskrift">RGB CSS</h1>
+
+    <div class="teksten">
+        <p class="boks">RGB er systemet man bruker i css for å lage forskjellige farger.
+            Måten man oppnår disse nye fargene er ved å kombinere fargene rød, grønn og blå sammen,
+            som man ser på bildet til siden. Fargen hvit har fargekoden 255, 255, 255.
+            Og sort har derfor fargekoden 0, 0, 0. Og for alle andre farger så er det bare å blande forskjellig
+            mengder av de tre fargene helt til man får den fargen man leter etter. Hvis man øver nok vil man kanskje til
+            slutt å lage akuratt den fargen man er ute etter.</p>
+
+
+    </div>
+
+    <div class="bilde">
+        <img src="rgb.png">
+    </div>
+</body>
+
+</html>
