@@ -5,114 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bildepunkter</title>
+     <link rel="stylesheet" type="text/css" href="musaa.css">
 
     <style>
-        .bildepunkter {
-            text-align: center;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .liten {
-            text-align: center;
-        }
-
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            width: fit-content;
-            padding: 20px;
-            margin-left: 75px;
-            margin-right: 75px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .container .container_overskrift {
-            font-size: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-
-        }
-
-        .container .container_underskrift {
-            font-size: 15px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-        }
+        
 
 
-        .bilde {
-            background-image: url(bilder/bildepunkter.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 50%;
-            height: 50vh;
-            border-radius: 10px;
-        }
+        
 
-        .bilde_container {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        #bilde_tre {
-            position: relative;
-            top: calc(50% - 10px);
-            left: calc(50% - 10px);
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-            transition: width, 1.5s, heigth, 1.5s;
-            border: 2px solid rgb(255, 255, 255);
-            padding: 10px;
-        }
-
-        #bilde_tre:hover {
-            padding: 0;
-            top: 0;
-            left: 0;
-            border: 0;
-            border-radius: 10px;
-            width: 100%;
-            height: 100%;
-        }
-
-        .boks {
-            display: flex;
-        }
-
-        aside {
-            flex: 1;
-        }
-
-        main {
-            flex: 3;
-        }
-
-        .boks1 {
-            background-color: white;
-            font-size: 30px;
-            display: flex;
-            align-items: center;
-            margin: 10px;
-            border-radius: 10px;
-            width: fit-content;
-            padding: 20px;
-        }
-
-        .bilde_smil{
-
-            height: 100px;
-            width: 100px;
-            border-radius: 10px;
-            margin-left: 20px;
-        }
-
-        .bakgrunn_side5{
-            background-image:url(bilder/bakgrunn.jpg);
-        }
+       
     </style>
 </head>
 
@@ -120,12 +21,12 @@
 
     <div class="boks">
 
-        <main>
+        <main class="main">
             <div class="overskrift">
                 <h1 class="bildepunkter">BILDEPUNKTER (PIKSLER)</h1>
             </div>
 
-            <div class="container">
+            <div class="bildecontainer">
                 <h1 class="container_overskrift">FORKLARING</h1>
                 <p class="container_underskrift">En datamaskin bryter som regel ting helt ned til 0 og 1. Derfor deler
                     vi bilder inn i bittesmå deler. Dette kalles piksler eller bildepunkter. Bildepunktene har ikke en
@@ -140,24 +41,24 @@
             </div>
         </main>
 
-        <aside>
-            <div class="boks1">
+        <aside class="aside">
+            <div class="boks15">
                 <H1>1.</H1>
                 <img class="bilde_smil" src="bilder/smil1.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks15">
                 <h1>2.</h1>
                 <img class="bilde_smil" src="bilder/smil2.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks15">
                 <h1>3.</h1>
                 <img class="bilde_smil" src="bilder/smil3.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks15">
                 <h1>4.</h1>
                 <img class="bilde_smil" src="bilder/smil4.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks15">
                 <h1>5.</h1>
                 <img class="bilde_smil" src="bilder/smil5.jpg" alt="">
             </div>
