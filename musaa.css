@@ -259,6 +259,14 @@ img {
 }
 
 
+#topelias{
+   background-color: rgba(40, 40, 40, 0.5);
+}
+
+#topjep{
+  background-color: rgba(40, 40, 40, 0.8);
+}
+
 .top:hover {
     background-color: white;
 }
@@ -345,18 +353,36 @@ ion-icon {
 }
 
 .meg {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
     width: 25%;
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
     border: 2px solid #5D7290;
     height: 200px;
- }
+}
+
+
+
+.meg a{
+    text-decoration: none;
+    font-size: 70px;
+    color:#7D3C98;
+
+}
 
 
 
 #boks1 {
     background-image: url("Bilder/elias.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#boks2 {
+    background-image: url("Bilder/jeppe.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
