@@ -267,6 +267,15 @@ img {
   background-color: rgba(40, 40, 40, 0.8);
 }
 
+#topjep:hover{
+    background-color: white;
+
+}
+
+#topelias:hover{
+    background-color: white;
+
+}
 .top:hover {
     background-color: white;
 }
