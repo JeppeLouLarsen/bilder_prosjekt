@@ -275,12 +275,8 @@ ion-icon {
     box-sizing: border-box;
     text-align: center;
     border: 2px solid #5D7290;
-    vertical-align: top;
-    align-items: center; 
-    justify-content: center;
-    text-decoration: none; 
-    font-size: 16px;
-     }
+    height: 200px;
+ }
 
 #boks1{
     background-image: url("Bilder/elias.png");
@@ -288,9 +284,6 @@ ion-icon {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-
 
 
 
@@ -555,7 +548,7 @@ ion-icon {
 
         }
 
-        .container .container_underskrift {
+        .bildecontainer .container_underskrift {
             font-size: 15px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
