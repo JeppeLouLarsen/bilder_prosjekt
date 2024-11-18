@@ -655,7 +655,7 @@ ion-icon {
 
 }
 
-.bpcontainer .container_underskrift {
+.container .container_underskrift {
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -714,7 +714,7 @@ main {
 .boks1 {
     background-color: white;
     font-size: 30px;
-    display: flex;
+    display: none;
     align-items: center;
     margin: 10px;
     border-radius: 10px;
@@ -732,6 +732,19 @@ main {
 
 .bakgrunn_side5 {
     background-image: url(bilder/bakgrunn.jpg);
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+aside{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
 }
 
 /* side 6*/

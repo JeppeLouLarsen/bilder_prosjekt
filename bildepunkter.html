@@ -38,24 +38,21 @@
         </main>
 
         <aside>
-            <div class="boks1">
+            <button onclick="visbilde()">Se hvordan bilder består av tall</button>
+            <div class="boks1" id="bboks1">
                 <H1>1.</H1>
                 <img class="bilde_smil" src="bilder/smil1.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks1" id="bboks2">
                 <h1>2.</h1>
                 <img class="bilde_smil" src="bilder/smil2.jpg" alt="">
             </div>
-            <div class="boks1">
+            <div class="boks1" id="bboks4">
                 <h1>3.</h1>
-                <img class="bilde_smil" src="bilder/smil3.jpg" alt="">
-            </div>
-            <div class="boks1">
-                <h1>4.</h1>
                 <img class="bilde_smil" src="bilder/smil4.jpg" alt="">
             </div>
-            <div class="boks1">
-                <h1>5.</h1>
+            <div class="boks1" id="bboks5">
+                <h1>4.</h1>
                 <img class="bilde_smil" src="bilder/smil5.jpg" alt="">
             </div>
         </aside>
@@ -68,8 +65,37 @@
                 <li><a href="side3.html">Kompresjon</a></li>
                 <li><a href="side1.html">Startside</a></li>
             </ul>
-        </div>
+            </diav>
     </footer>
 </body>
+
+<script>
+    //cred: Bendik :)
+    const bilde1 = document.getElementById("bboks1");
+    const bilde2 = document.getElementById("bboks2");
+    const bilde4 = document.getElementById("bboks4");
+    const bilde5 = document.getElementById("bboks5");
+
+    function visbilde(){
+        
+        function vis1() {
+            bilde1.style.display = 'flex';
+        }
+        function vis2() {
+            bilde2.style.display = 'flex';
+        } 
+        function vis4() {
+            bilde4.style.display = 'flex';
+        }
+        function vis5() {
+            bilde5.style.display = 'flex';
+        }
+        setTimeout(vis1, 0)
+        setTimeout(vis2, 500)
+        setTimeout(vis4, 1000)
+        setTimeout(vis5, 1500)
+    }
+
+</script>
 
 </html>
