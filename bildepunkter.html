@@ -5,115 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bildepunkter</title>
-
-    <style>
-        .bildepunkter {
-            text-align: center;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .liten {
-            text-align: center;
-        }
-
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            width: fit-content;
-            padding: 20px;
-            margin-left: 75px;
-            margin-right: 75px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
-
-        .container .container_overskrift {
-            font-size: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-
-        }
-
-        .container .container_underskrift {
-            font-size: 15px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-        }
-
-
-        .bilde {
-            background-image: url(bilder/bilde_tre.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 50%;
-            height: 50vh;
-            border-radius: 10px;
-        }
-
-        .bilde_container {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        #bilde_tre {
-            position: relative;
-            top: calc(50% - 10px);
-            left: calc(50% - 10px);
-            border-radius: 50%;
-            width: 2px;
-            height: 2px;
-            transition: width, 1.5s, heigth, 1.5s;
-            border: 2px solid rgb(255, 255, 255);
-            padding: 10px;
-        }
-
-        #bilde_tre:hover {
-            padding: 0;
-            top: 0;
-            left: 0;
-            border: 0;
-            border-radius: 10px;
-            width: 100%;
-            height: 100%;
-        }
-
-        .boks {
-            display: flex;
-        }
-
-        aside {
-            flex: 1;
-        }
-
-        main {
-            flex: 3;
-        }
-
-        .boks1 {
-            background-color: white;
-            font-size: 30px;
-            display: flex;
-            align-items: center;
-            margin: 10px;
-            border-radius: 10px;
-            width: fit-content;
-            padding: 20px;
-        }
-
-        .bilde_smil {
-
-            height: 100px;
-            width: 100px;
-            border-radius: 10px;
-            margin-left: 20px;
-        }
-
-        .bakgrunn_side5 {
-            background-image: url(bilder/bakgrunn.jpg);
-        }
-    </style>
+    <link rel="stylesheet" href="musaa.css">
 </head>
 
 <body class="bakgrunn_side5">
@@ -121,11 +13,11 @@
     <div class="boks">
 
         <main>
-            <div class="overskrift">
+            <div>
                 <h1 class="bildepunkter">BILDEPUNKTER (PIKSLER)</h1>
             </div>
 
-            <div class="container">
+            <div class="bpcontainer">
                 <h1 class="container_overskrift">FORKLARING</h1>
                 <p class="container_underskrift">
                     En piksel er den minste enheten i et digitalt bilde eller på en skjerm. Hver piksel har en spesifikk
@@ -139,7 +31,7 @@
             </div>
 
             <div class="bilde_container">
-                <div class="bilde">
+                <div id="bilde">
                     <img id="bilde_tre" src="bilder/bit-bilde.png" alt="">
                 </div>
             </div>
@@ -168,7 +60,16 @@
             </div>
         </aside>
     </div>
-
+    <footer class="footer">
+        <div>
+            <p class="p5">&copy; 2024 Bilder. Alle rettigheter forbeholdt.</p>
+            <ul>
+                <li><a href="side2.html">Hjemside</a></li>
+                <li><a href="side3.html">Komresjon</a></li>
+                <li><a href="side1.html">Startside</a></li>
+            </ul>
+        </div>
+ </footer> 
 </body>
 
 </html>
