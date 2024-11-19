@@ -335,7 +335,7 @@ ion-icon {
 
 
 @media (max-width: 500px) {
-    .top{
+    .top {
         margin: auto;
     }
 }
@@ -397,12 +397,12 @@ ion-icon {
 @media (max-width: 500px) {
     .container {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
-    
+
     .meg {
-        width: 100%; 
-        margin-bottom: 10px; 
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
@@ -421,8 +421,8 @@ ion-icon {
     background-position: center;
 }
 
-#boks3{
-     background-image: url("Bilder/eddi.png");
+#boks3 {
+    background-image: url("Bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -600,6 +600,127 @@ ion-icon {
     }
 }
 
+@media (max-width: 1081px) and (min-width: 801px) {
+    .komp {
+        gap: 30px;
+    }
+
+    .box {
+        width: 75%;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .komphead {
+        font-size: 45px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .komphead1 {
+        font-size: 45px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .komphead2 {
+        font-size: 25px;
+    }
+
+    .p1 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .row1 img {
+        height: 250px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .komp {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .box {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+
+    }
+
+
+}
+
+@media (max-width: 710px) {
+
+    .top a,
+    .top span {
+        font-size: 15px;
+    }
+
+    .komphead {
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .komphead1 {
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .komphead2 {
+        font-size: 30px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .komp {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .box {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .row1 img {
+        height: 200px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+}
+
+
 @media (max-width: 500px) {
 
     .top a,
@@ -661,6 +782,7 @@ ion-icon {
     }
 
 }
+
 
 .footer {
     background-color: #191919;
@@ -775,7 +897,7 @@ ion-icon {
     font-family: 'OpenSans', sans-serif;
 }
 
-.liten { 
+.liten {
     text-align: center;
 }
 
@@ -791,7 +913,7 @@ ion-icon {
     transition: ease-in-out 0.5s;
 }
 
-.bpcontainer:hover{
+.bpcontainer:hover {
     background-color: #f5f5dc;
     box-shadow: 0px 0px 8px whitesmoke;
 }
@@ -811,9 +933,9 @@ ion-icon {
     text-align: center;
     font-size: 15px;
     line-height: 1.5;
-    }
+}
 
- .bildecontainer .container_underskrift {
+.bildecontainer .container_underskrift {
 
     font-size: 15px;
     font-family: 'OpenSans', sans-serif;
@@ -924,44 +1046,44 @@ aside {
 
 @media (max-width: 616px) {
 
-    .container_underskrift1{
+    .container_underskrift1 {
         font-size: 10px;
     }
 
-    .container_overskrift1{
+    .container_overskrift1 {
         font-size: 20px;
     }
 
-    .bildepunkter{
+    .bildepunkter {
         font-size: 25px;
     }
 
-    .boks{
+    .boks {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .jeppemain{
+    .jeppemain {
         order: 1;
     }
 
-    .jeppeaside{
+    .jeppeaside {
         order: 2;
     }
 
-    .bakgrunn_side5{
+    .bakgrunn_side5 {
         background-image: cover;
         background-repeat: repeat-y;
         background-position: center;
         background-attachment: fixed;
     }
 
-    .footer{
+    .footer {
         width: 100%;
     }
 
-    }
+}
 
 /* side 6*/
 
@@ -1051,47 +1173,47 @@ aside {
 }
 
 @media (max-width: 500px) {
-        
-        .eddi {
-            background-size: contain;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-        }
 
-        .boks {
-            width: 90%;
-            /* Tilpass bredden til skjermen */
-            height: auto;
-            /* Gjør høyden fleksibel */
-            margin: 20px auto;
-            /* Sentrer boksen */
-            font-size: 14px;
-            box-shadow: 0px 2px 4px black;
-        }
+    .eddi {
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
 
-        .boks:hover {
-            transform: scale(1.1);
-            /* Mindre ekspansjon ved hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+    .boks {
+        width: 90%;
+        /* Tilpass bredden til skjermen */
+        height: auto;
+        /* Gjør høyden fleksibel */
+        margin: 20px auto;
+        /* Sentrer boksen */
+        font-size: 14px;
+        box-shadow: 0px 2px 4px black;
+    }
 
-        .eddiimg {
-            margin: 20px auto;
-            /* Sentrer bildet */
-            width: 90%;
-            /* Tilpass bredden til skjermen */
-            height: auto;
-            /* Oppretthold proporsjoner */
-            box-shadow: 0px 2px 4px black;
-        }
+    .boks:hover {
+        transform: scale(1.1);
+        /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-        .eddiimg:hover {
-            transform: scale(1.1);
-            /* Mindre ekspansjon ved hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+    .eddiimg {
+        margin: 20px auto;
+        /* Sentrer bildet */
+        width: 90%;
+        /* Tilpass bredden til skjermen */
+        height: auto;
+        /* Oppretthold proporsjoner */
+        box-shadow: 0px 2px 4px black;
+    }
+
+    .eddiimg:hover {
+        transform: scale(1.1);
+        /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
     .overskrift {
         font-size: 50px;
