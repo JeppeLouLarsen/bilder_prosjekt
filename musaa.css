@@ -405,8 +405,8 @@ ion-icon {
     background-position: center;
 }
 
-#boks3 {
-    background-image: url("Bilder/eddi.png");
+#boks3{
+     background-image: url("Bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -510,8 +510,8 @@ ion-icon {
     padding: 15px;
     border-radius: 30px;
     background-color: white;
-    height: 100%;
-    max-width: 500px;
+    height: 300px;
+    width: 500px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -772,12 +772,6 @@ ion-icon {
     margin-right: 75px;
     margin-top: 40px;
     margin-bottom: 20px;
-    transition: transform 0.5s;
-}
-
-.bpcontainer:hover {
-    transform: scale(1.1) translateY(-0px);
-    text-decoration: none;
 }
 
 .container_overskrift1 {
@@ -795,9 +789,9 @@ ion-icon {
     text-align: center;
     font-size: 15px;
     line-height: 1.5;
-}
+    }
 
-.bildecontainer .container_underskrift {
+ .bildecontainer .container_underskrift {
 
     font-size: 15px;
     font-family: 'OpenSans', sans-serif;
@@ -820,8 +814,6 @@ ion-icon {
     height: 50vh;
     border-radius: 10px;
 }
-
-
 
 .bilde_container {
     display: flex;
@@ -992,58 +984,4 @@ aside {
 
 .teksten {
     color: #ffffff;
-}
-
-
-@media (max-width: 500px) {
-
-    @media (max-width: 500px) {
-
-        body {
-            background-size: contain;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .boks {
-            width: 90%;
-            /* Tilpass bredden til skjermen */
-            height: auto;
-            /* Gjør høyden fleksibel */
-            margin: 20px auto;
-            /* Sentrer boksen */
-            font-size: 14px;
-            box-shadow: 0px 2px 4px black;
-        }
-
-        .boks:hover {
-            transform: scale(1.1);
-            /* Mindre ekspansjon ved hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        img {
-            margin: 20px auto;
-            /* Sentrer bildet */
-            width: 90%;
-            /* Tilpass bredden til skjermen */
-            height: auto;
-            /* Oppretthold proporsjoner */
-            box-shadow: 0px 2px 4px black;
-        }
-
-        img:hover {
-            transform: scale(1.1);
-            /* Mindre ekspansjon ved hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .overskrift {
-            font-size: 50px;
-            margin-top: 20px;
-            text-align: center;
-        }
-    }
 }
