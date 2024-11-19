@@ -607,6 +607,7 @@ ion-icon {
 
     .box {
         width: 75%;
+        justify-content: center;
         height: auto;
         padding: 10px;
         border-radius: 15px;
@@ -621,13 +622,9 @@ ion-icon {
     .footer ul {
         flex-direction: column;
         align-items: center;
-        padding-top: 10px;
+        
     }
 
-    .hjem {
-        font-size: 14px; 
-        padding: 10px; 
-    }
 }
 
 .footer {
