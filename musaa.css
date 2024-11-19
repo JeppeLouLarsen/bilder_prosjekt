@@ -915,7 +915,7 @@ aside {
     flex-direction: column;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 616px) {
 
     .container_underskrift1{
         font-size: 10px;
@@ -932,6 +932,7 @@ aside {
     .boks{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .jeppemain{
@@ -945,6 +946,12 @@ aside {
     .bakgrunn_side5{
         background-image: cover;
         background-repeat: repeat-y;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .footer{
+        width: 100%;
     }
 
     }
