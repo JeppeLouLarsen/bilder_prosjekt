@@ -405,26 +405,23 @@ ion-icon {
     background-position: center;
 }
 
+#boks3{
+     background-image: url("Bilder/eddi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-
-
-
-
-
-
-
-.meg:hover {
-    transform: scale(2.0);
-    position: absolute;
-    /* Plasserer den "absolutt" MERK: I forhold til den ytre div som har position relavtive! */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Litt fancy måte å midstille på: Boksen starter på 50% top og 50% left - av den ytre diven. MEN: Så flytter vi den minus 50% (altså oppover og til venstre) - av sin egen størrelse */
-    z-index: 2;
-    width: 70%;
-    height: 50%;
 }
+
+
+
+
+
+
+
+
+
+
 
 .fit {
     width: 100%;
@@ -738,6 +735,8 @@ ion-icon {
 
 /* bildepunkter*/
 
+@import url('https://fonts.googleapis.com/css2?family=OpenSans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .jeppemain {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -754,9 +753,10 @@ ion-icon {
 }
 
 .bildepunkter {
+    font-size: 40px;
     text-align: center;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 .liten {
@@ -776,7 +776,7 @@ ion-icon {
 
 .container_overskrift1 {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 
 }
@@ -784,21 +784,23 @@ ion-icon {
 
 .container_underskrift1 {
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 15px;
+    line-height: 1.5;
     }
 
  .bildecontainer .container_underskrift {
 
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
