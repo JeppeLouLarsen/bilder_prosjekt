@@ -421,8 +421,8 @@ ion-icon {
     background-position: center;
 }
 
-#boks3 {
-    background-image: url("Bilder/eddi.png");
+#boks3{
+     background-image: url("Bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -526,8 +526,8 @@ ion-icon {
     padding: 15px;
     border-radius: 30px;
     background-color: white;
-    height: 100%;
-    max-width: 500px;
+    height: 300px;
+    width: 500px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -788,12 +788,6 @@ ion-icon {
     margin-right: 75px;
     margin-top: 40px;
     margin-bottom: 20px;
-    transition: transform 0.5s;
-}
-
-.bpcontainer:hover {
-    transform: scale(1.1) translateY(-0px);
-    text-decoration: none;
 }
 
 .container_overskrift1 {
@@ -811,9 +805,9 @@ ion-icon {
     text-align: center;
     font-size: 15px;
     line-height: 1.5;
-}
+    }
 
-.bildecontainer .container_underskrift {
+ .bildecontainer .container_underskrift {
 
     font-size: 15px;
     font-family: 'OpenSans', sans-serif;
@@ -836,8 +830,6 @@ ion-icon {
     height: 50vh;
     border-radius: 10px;
 }
-
-
 
 .bilde_container {
     display: flex;
@@ -1010,7 +1002,7 @@ aside {
     color: #ffffff;
 }
 
- @media (max-width: 500px) {
+@media (max-width: 500px) {
 
         body {
             background-size: contain;
@@ -1057,4 +1049,5 @@ aside {
         font-size: 50px;
         margin-top: 50px;
     }
+
 }
