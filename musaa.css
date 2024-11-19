@@ -10,9 +10,6 @@ img {
 }
 
 
-
-
-
 /* side 1 */
 
 
@@ -259,23 +256,24 @@ img {
 }
 
 
-#topelias{
-   background-color: rgba(40, 40, 40, 0.5);
+#topelias {
+    background-color: rgba(40, 40, 40, 0.5);
 }
 
-#topjep{
-  background-color: rgba(40, 40, 40, 0.8);
+#topjep {
+    background-color: rgba(40, 40, 40, 0.8);
 }
 
-#topjep:hover{
+#topjep:hover {
     background-color: white;
 
 }
 
-#topelias:hover{
+#topelias:hover {
     background-color: white;
 
 }
+
 .top:hover {
     background-color: white;
 }
@@ -363,8 +361,8 @@ ion-icon {
 
 .meg {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
     width: 25%;
     padding: 0px;
     box-sizing: border-box;
@@ -375,10 +373,10 @@ ion-icon {
 
 
 
-.meg a{
+.meg a {
     text-decoration: none;
     font-size: 70px;
-    color:#7D3C98;
+    color: #7D3C98;
 
 }
 
@@ -390,6 +388,7 @@ ion-icon {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #boks2 {
     background-image: url("Bilder/jeppe.png");
     background-size: cover;
@@ -579,7 +578,51 @@ ion-icon {
     }
 }
 
+@media (width: 500px) {
 
+    .komphead {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .komphead1 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .komphead2 {
+        font-size: 25px;
+    }
+
+    .p1 {
+        font-size: 16px;
+    }
+
+    .komp {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .row1 img {
+        height: 200px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 .footer {
     background-color: #191919;
@@ -698,12 +741,11 @@ ion-icon {
 
 }
 
-3
-        .bildecontainer .container_underskrift {
-            font-size: 15px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-        }
+3 .bildecontainer .container_underskrift {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
@@ -785,16 +827,17 @@ main {
     background-image: url(bilder/bakgrunn.jpg);
 }
 
-button{
+button {
     border: none;
     height: 50px;
     width: 200px;
     border-radius: 10px;
     margin-top: 5px;
 }
-aside{
+
+aside {
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
 }
 
