@@ -628,6 +628,10 @@ ion-icon {
         
     }
 
+    .footer ul li {
+        margin-bottom: 10px; 
+    }
+
 }
 
 .footer {
