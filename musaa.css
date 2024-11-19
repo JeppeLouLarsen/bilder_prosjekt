@@ -405,26 +405,23 @@ ion-icon {
     background-position: center;
 }
 
+#boks3{
+     background-image: url("Bilder/eddi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-
-
-
-
-
-
-
-.meg:hover {
-    transform: scale(2.0);
-    position: absolute;
-    /* Plasserer den "absolutt" MERK: I forhold til den ytre div som har position relavtive! */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Litt fancy måte å midstille på: Boksen starter på 50% top og 50% left - av den ytre diven. MEN: Så flytter vi den minus 50% (altså oppover og til venstre) - av sin egen størrelse */
-    z-index: 2;
-    width: 70%;
-    height: 50%;
 }
+
+
+
+
+
+
+
+
+
+
 
 .fit {
     width: 100%;
