@@ -472,6 +472,7 @@ ion-icon {
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -480,6 +481,7 @@ ion-icon {
     font-weight: bold;
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -529,6 +531,7 @@ ion-icon {
     text-align: center;
     color: black;
     line-height: 1.9;
+    padding-top: 10px;
 }
 
 
