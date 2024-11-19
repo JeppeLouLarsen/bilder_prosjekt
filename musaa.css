@@ -892,6 +892,10 @@ aside {
 
 /* side 6*/
 
+.fadeed {
+    animation: fadeIn 4s ease forwards;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
