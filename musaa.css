@@ -980,3 +980,31 @@ aside {
 .teksten {
     color: #ffffff;
 }
+<<<<<<< HEAD
+@media (max-width: 500px) {
+    body {
+        background-size: contain;
+    }
+
+    .boks {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .overskrift {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+}
+=======
+
+>>>>>>> 243f8e26966affd9310280bf8c6d103b1bbf483a
