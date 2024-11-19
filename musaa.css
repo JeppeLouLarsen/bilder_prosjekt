@@ -627,6 +627,21 @@ ion-icon {
 
 /* bildepunkter*/
 
+.jeppemain {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jeppeaside {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bakgrunn_side5 {
+    animation: fadeIn 4s ease forwards;
+
+}
+
 .bildepunkter {
     text-align: center;
     color: white;
@@ -648,14 +663,15 @@ ion-icon {
     margin-bottom: 20px;
 }
 
-.bpcontainer .container_overskrift {
+.container_overskrift {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 
 }
 
-.container .container_underskrift {
+.container_underskrift {
+    margin-top: 20px;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -734,16 +750,22 @@ main {
     background-image: url(bilder/bakgrunn.jpg);
 }
 
-button{
+button {
     border: none;
     height: 50px;
     width: 200px;
     border-radius: 10px;
     margin-top: 5px;
 }
-aside{
+
+button:hover {
+    background-color: #f5f5dc;
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+aside {
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
 }
 
