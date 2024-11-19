@@ -593,7 +593,7 @@ ion-icon {
 
 .footer ul {
     padding: 0;
-    padding-top: 15px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     width: 250px;
