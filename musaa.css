@@ -731,6 +731,8 @@ ion-icon {
 
 /* bildepunkter*/
 
+@import url('https://fonts.googleapis.com/css2?family=OpenSans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .jeppemain {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -747,9 +749,10 @@ ion-icon {
 }
 
 .bildepunkter {
+    font-size: 40px;
     text-align: center;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 .liten {
@@ -769,7 +772,7 @@ ion-icon {
 
 .container_overskrift1 {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 
 }
@@ -777,21 +780,23 @@ ion-icon {
 
 .container_underskrift1 {
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 15px;
+    line-height: 1.5;
     }
 
  .bildecontainer .container_underskrift {
 
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
