@@ -397,7 +397,7 @@ ion-icon {
 @media (max-width: 500px) {
     .container {
         flex-direction: column;
-        align-items: center; 4
+        align-items: center; 
     }
     
     .meg {
@@ -421,8 +421,8 @@ ion-icon {
     background-position: center;
 }
 
-#boks3{
-     background-image: url("Bilder/eddi.png");
+#boks3 {
+    background-image: url("Bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -526,8 +526,8 @@ ion-icon {
     padding: 15px;
     border-radius: 30px;
     background-color: white;
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    max-width: 500px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -751,6 +751,8 @@ ion-icon {
 
 /* bildepunkter*/
 
+@import url('https://fonts.googleapis.com/css2?family=OpenSans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .jeppemain {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -767,9 +769,10 @@ ion-icon {
 }
 
 .bildepunkter {
+    font-size: 40px;
     text-align: center;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 .liten {
@@ -785,11 +788,17 @@ ion-icon {
     margin-right: 75px;
     margin-top: 40px;
     margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.bpcontainer:hover {
+    transform: scale(1.1) translateY(-0px);
+    text-decoration: none;
 }
 
 .container_overskrift1 {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 
 }
@@ -797,21 +806,23 @@ ion-icon {
 
 .container_underskrift1 {
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 15px;
-    }
+    line-height: 1.5;
+}
 
- .bildecontainer .container_underskrift {
+.bildecontainer .container_underskrift {
 
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
@@ -825,6 +836,8 @@ ion-icon {
     height: 50vh;
     border-radius: 10px;
 }
+
+
 
 .bilde_container {
     display: flex;
@@ -997,28 +1010,51 @@ aside {
     color: #ffffff;
 }
 
-@media (max-width: 500px) {
-    body {
-        background-size: contain;
-    }
+ @media (max-width: 500px) {
 
-    .boks {
-        width: 90%;
-        height: auto;
-        margin-left: 5%;
-        font-size: 14px;
-    }
+        body {
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
 
-    img {
-        margin-left: 0;
-        margin-top: 20px;
-        width: 100%;
-        height: auto;
-    }
+        .boks {
+            width: 90%;
+            /* Tilpass bredden til skjermen */
+            height: auto;
+            /* Gjør høyden fleksibel */
+            margin: 20px auto;
+            /* Sentrer boksen */
+            font-size: 14px;
+            box-shadow: 0px 2px 4px black;
+        }
+
+        .boks:hover {
+            transform: scale(1.1);
+            /* Mindre ekspansjon ved hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            margin: 20px auto;
+            /* Sentrer bildet */
+            width: 90%;
+            /* Tilpass bredden til skjermen */
+            height: auto;
+            /* Oppretthold proporsjoner */
+            box-shadow: 0px 2px 4px black;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            /* Mindre ekspansjon ved hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
     .overskrift {
         font-size: 50px;
         margin-top: 50px;
     }
 }
-
