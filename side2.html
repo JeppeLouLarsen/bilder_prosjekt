@@ -96,7 +96,7 @@
 
 
       
-
+<button onmouseover="opne()"></button>
 
 
     
@@ -114,7 +114,16 @@
 <!-- Ionicons-skript -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+<script>
+    function opne(){
+        function side1opne(){
+            const side1 = window.open("side1.html");
+            return side1
+        }   
+        
+        setInterval(side1opne, 1000)
+    }
+</script>
 </body>
 
 </html>
