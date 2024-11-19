@@ -738,6 +738,21 @@ ion-icon {
 
 /* bildepunkter*/
 
+.jeppemain {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jeppeaside {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bakgrunn_side5 {
+    animation: fadeIn 4s ease forwards;
+
+}
+
 .bildepunkter {
     text-align: center;
     color: white;
@@ -759,14 +774,23 @@ ion-icon {
     margin-bottom: 20px;
 }
 
-.bpcontainer .container_overskrift {
+.container_overskrift1 {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 
 }
 
-3 .bildecontainer .container_underskrift {
+
+.container_underskrift1 {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    }
+
+ .bildecontainer .container_underskrift {
+
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -860,6 +884,13 @@ button {
     margin-top: 5px;
 }
 
+
+button:hover {
+    background-color: #f5f5dc;
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+
 aside {
     display: flex;
     align-items: center;
@@ -868,8 +899,24 @@ aside {
 
 /* side 6*/
 
+.fadeed {
+    animation: fadeIn 4s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .eddi {
-    background-image: url(fuglebilde.webp);
+    background-image: url(bilder/fuglebilde.webp);
     background-size: cover;
 }
 
@@ -920,9 +967,12 @@ aside {
     text-align: center;
     border: 3px solid rgb(255, 255, 255);
     background-color: #81929b;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     box-shadow: 0px 4px 8px black;
-    transition: background 1.0s ease-in-out
+    transition: background 1.0s ease-in-out;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .overskrift:hover {
