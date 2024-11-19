@@ -994,29 +994,48 @@ aside {
     color: #ffffff;
 }
 
-<<<<<<< HEAD @media (max-width: 500px) {
+
+@media (max-width: 500px) {
+
+@media (max-width: 500px) {
+
     body {
         background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .boks {
-        width: 90%;
-        height: auto;
-        margin-left: 5%;
+        width: 90%; /* Tilpass bredden til skjermen */
+        height: auto; /* Gjør høyden fleksibel */
+        margin: 20px auto; /* Sentrer boksen */
         font-size: 14px;
+        box-shadow: 0px 2px 4px black;
+    }
+
+    .boks:hover {
+        transform: scale(1.1); /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     img {
-        margin-left: 0;
-        margin-top: 20px;
-        width: 100%;
-        height: auto;
+        margin: 20px auto; /* Sentrer bildet */
+        width: 90%; /* Tilpass bredden til skjermen */
+        height: auto; /* Oppretthold proporsjoner */
+        box-shadow: 0px 2px 4px black;
+    }
+
+    img:hover {
+        transform: scale(1.1); /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .overskrift {
         font-size: 50px;
-        margin-top: 50px;
+        margin-top: 20px;
+        text-align: center;
     }
 }
-
-=======>>>>>>>243f8e26966affd9310280bf8c6d103b1bbf483a
+}
