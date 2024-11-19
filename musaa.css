@@ -578,7 +578,7 @@ ion-icon {
     }
 }
 
-@media (width: 500px) {
+@media (max-width: 500px) {
 
     .komphead {
         font-size: 30px;
