@@ -907,6 +907,40 @@ aside {
     flex-direction: column;
 }
 
+@media (max-width: 500px) {
+
+    .container_underskrift1{
+        font-size: 10px;
+    }
+
+    .container_overskrift1{
+        font-size: 20px;
+    }
+
+    .bildepunkter{
+        font-size: 25px;
+    }
+
+    .boks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jeppemain{
+        order: 1;
+    }
+
+    .jeppeaside{
+        order: 2;
+    }
+
+    .bakgrunn_side5{
+        background-image: cover;
+        background-repeat: repeat-y;
+    }
+
+    }
+
 /* side 6*/
 
 .fadeed {
