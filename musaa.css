@@ -607,6 +607,7 @@ ion-icon {
 
     .box {
         width: 75%;
+        display: flex;
         justify-content: center;
         height: auto;
         padding: 10px;
