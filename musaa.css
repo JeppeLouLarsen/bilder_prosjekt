@@ -294,6 +294,39 @@ img {
     text-decoration: none;
 }
 
+@media (max-width: 500px) {
+
+    .hjem {
+        font-size: 30px;  
+        margin-left: 5%;  
+    }
+
+
+    .top {
+        flex-direction: column;  
+        justify-content: flex-start;  
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .top a, .top span {
+        font-size: 24px;  
+        padding: 10px;  
+    }
+
+
+    .dropdownmenu a {
+        font-size: 18px; 
+    }
+
+    #topelias, #topjep {
+        background-color: rgba(40, 40, 40, 0.3);  
+    }
+
+    .top a:hover, .top span:hover {
+        background-color: rgba(255, 255, 255, 0.8);  
+    }
+}
 
 /* droppdown menu */
 .dropdown {
