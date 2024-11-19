@@ -10,9 +10,6 @@ img {
 }
 
 
-
-
-
 /* side 1 */
 
 
@@ -247,6 +244,7 @@ img {
 .top {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: 90px;
     padding: 0px;
@@ -258,6 +256,24 @@ img {
 
 }
 
+
+#topelias {
+    background-color: rgba(40, 40, 40, 0.5);
+}
+
+#topjep {
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+#topjep:hover {
+    background-color: white;
+
+}
+
+#topelias:hover {
+    background-color: white;
+
+}
 
 .top:hover {
     background-color: white;
@@ -278,6 +294,7 @@ img {
     color: black;
     text-decoration: none;
 }
+
 
 /* droppdown menu */
 .dropdown {
@@ -345,17 +362,27 @@ ion-icon {
 }
 
 .meg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25%;
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
     border: 2px solid #5D7290;
-    vertical-align: top;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 16px;
+    height: 200px;
 }
+
+
+
+.meg a {
+    text-decoration: none;
+    font-size: 70px;
+    color: #7D3C98;
+
+}
+
+
 
 #boks1 {
     background-image: url("Bilder/elias.png");
@@ -363,6 +390,16 @@ ion-icon {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#boks2 {
+    background-image: url("Bilder/jeppe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 
 
 
@@ -435,7 +472,8 @@ ion-icon {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     color: white;
 }
 
@@ -443,7 +481,8 @@ ion-icon {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -460,6 +499,7 @@ ion-icon {
     font-size: 35px;
     text-align: center;
     color: black;
+    padding-top: 10px;
 }
 
 .box {
@@ -493,6 +533,7 @@ ion-icon {
     text-align: center;
     color: black;
     line-height: 1.9;
+    padding-top: 10px;
 }
 
 
@@ -539,6 +580,68 @@ ion-icon {
     }
 }
 
+@media (max-width: 500px) {
+
+    .top a,
+    .top span {
+        font-size: 12px;
+    }
+
+    .komphead {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .komphead1 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .komphead2 {
+        font-size: 25px;
+    }
+
+    .p1 {
+        font-size: 16px;
+    }
+
+    .komp {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .row1 img {
+        height: 200px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+}
+
 .footer {
     background-color: #191919;
     color: #fff;
@@ -553,6 +656,7 @@ ion-icon {
 
 .footer ul {
     padding: 0;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     width: 250px;
@@ -663,19 +767,34 @@ ion-icon {
     margin-bottom: 20px;
 }
 
-.container_overskrift {
+.container_overskrift1 {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 
 }
 
-.container_underskrift {
+
+.container_underskrift1 {
     margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    }
+
+ .bildecontainer .container_underskrift {
+
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+.bildecontainer .container_underskrift {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 
 
 #bilde {
@@ -758,10 +877,12 @@ button {
     margin-top: 5px;
 }
 
+
 button:hover {
     background-color: #f5f5dc;
     box-shadow: 0px 0px 8px whitesmoke;
 }
+
 
 aside {
     display: flex;
