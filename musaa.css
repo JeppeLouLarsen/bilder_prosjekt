@@ -283,7 +283,7 @@ img {
 .top a,
 .top span {
     margin: 0;
-    padding: 25px;
+    padding: 6px;
     display: block;
     font-weight: 700;
     font-size: 36px;
@@ -334,7 +334,11 @@ ion-icon {
 }
 
 
-
+@media (max-width: 500px) {
+    .top{
+        margin: auto;
+    }
+}
 
 /* boks imellom */
 
@@ -389,6 +393,18 @@ ion-icon {
 
 }
 
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        align-items: center; 4
+    }
+    
+    .meg {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+}
 
 
 #boks1 {
@@ -980,7 +996,7 @@ aside {
 .teksten {
     color: #ffffff;
 }
-<<<<<<< HEAD
+
 @media (max-width: 500px) {
     body {
         background-size: contain;
@@ -1005,6 +1021,4 @@ aside {
         margin-top: 50px;
     }
 }
-=======
 
->>>>>>> 243f8e26966affd9310280bf8c6d103b1bbf483a
