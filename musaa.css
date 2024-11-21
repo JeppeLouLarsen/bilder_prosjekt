@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     border: 0;
     padding: 0;
@@ -8,6 +11,16 @@
 img {
     width: 100%;
 }
+
+p{
+    font-family: Quicksand;
+    font-weight: 300;
+}
+
+h1, h2{
+    font-family: Quicksand;
+}
+
 
 
 /* side 1 */
@@ -192,7 +205,6 @@ img {
     text-align: center;
     font-size: 75px;
     font-weight: 500;
-    font-family: "Crimson";
 
 }
 
@@ -203,7 +215,6 @@ img {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    font-family: "Crimson";
     margin-top: 75px;
 }
 
@@ -211,7 +222,6 @@ img {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    font-family: "Crimson";
     margin: 30px;
 }
 
@@ -236,9 +246,9 @@ img {
     margin-top: 30px;
     margin-left: 10%;
     font-size: 70px;
-    font-family: roboto, sans-serif;
     text-decoration-line: none;
     color: black;
+    font-family: Quicksand;
 
 }
 
@@ -936,7 +946,7 @@ ion-icon {
 }
 
 .bakgrunn_side5 {
-    animation: fadeIn 4s ease forwards;
+    
 
 }
 
@@ -944,7 +954,6 @@ ion-icon {
     font-size: 40px;
     text-align: center;
     color: white;
-    font-family: 'OpenSans', sans-serif;
 }
 
 .liten {
@@ -967,7 +976,6 @@ ion-icon {
 
 .container_overskrift1 {
     font-size: 30px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 
 }
@@ -975,7 +983,6 @@ ion-icon {
 
 .container_underskrift1 {
     margin-top: 20px;
-    font-family: 'OpenSans', sans-serif;
     font-weight: 700;
     text-align: center;
     font-size: 15px;
@@ -985,13 +992,11 @@ ion-icon {
 .bildecontainer .container_underskrift {
 
     font-size: 15px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
@@ -1036,6 +1041,7 @@ ion-icon {
 
 .boksjeppe {
     display: flex;
+    animation: fadeIn 4s ease forwards;
 }
 
 aside {
