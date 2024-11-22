@@ -945,7 +945,6 @@ ion-icon {
     margin-bottom: 30px;
 }
 
-
 .bildepunkter {
     font-size: 40px;
     text-align: center;
@@ -1241,12 +1240,11 @@ aside {
     color: #ffffff;
 }
 
-@media (max-width: 500px) {
-<<<<<<< HEAD
+@media (max-width: 500px){
     .top {
         flex-direction: column; 
         align-items: flex-start; 
-=======
+    }
 
     .eddi {
         background-size: contain;
@@ -1258,41 +1256,32 @@ aside {
 
     .boks {
         width: 90%;
-        /* Tilpass bredden til skjermen */
         height: auto;
-        /* Gjør høyden fleksibel */
         margin: 20px auto;
-        /* Sentrer boksen */
         font-size: 14px;
         box-shadow: 0px 2px 4px black;
     }
 
     .boks:hover {
         transform: scale(1.1);
-        /* Mindre ekspansjon ved hover */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .eddiimg {
         margin: 20px auto;
-        /* Sentrer bildet */
         width: 90%;
-        /* Tilpass bredden til skjermen */
         height: auto;
-        /* Oppretthold proporsjoner */
         box-shadow: 0px 2px 4px black;
     }
 
     img:hover {
         transform: scale(1.1);
-        /* Mindre ekspansjon ved hover */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .overskrift {
         font-size: 50px;
         margin-top: 50px;
->>>>>>> 117604bd0a45e0f62722d1f2b117ea99ac97948c
     }
 
     .dropdown {
@@ -1323,4 +1312,3 @@ aside {
         font-size: 14px; 
     }
 }
-
