@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     border: 0;
     padding: 0;
@@ -8,6 +11,16 @@
 img {
     width: 100%;
 }
+
+p{
+    font-family: Quicksand;
+    font-weight: 300;
+}
+
+h1, h2{
+    font-family: Quicksand;
+}
+
 
 
 /* side 1 */
@@ -192,7 +205,6 @@ img {
     text-align: center;
     font-size: 75px;
     font-weight: 500;
-    font-family: "Crimson";
 
 }
 
@@ -203,7 +215,6 @@ img {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    font-family: "Crimson";
     margin-top: 75px;
 }
 
@@ -211,14 +222,13 @@ img {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    font-family: "Crimson";
     margin: 30px;
 }
 
 
 
 .bitch {
-    background-image: url("Bilder/cover.jpg");
+    background-image: url("bilder/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,9 +246,9 @@ img {
     margin-top: 30px;
     margin-left: 10%;
     font-size: 70px;
-    font-family: roboto, sans-serif;
     text-decoration-line: none;
     color: black;
+    font-family: Quicksand;
 
 }
 
@@ -283,7 +293,7 @@ img {
 .top a,
 .top span {
     margin: 0;
-    padding: 25px;
+    padding: 6px;
     display: block;
     font-weight: 700;
     font-size: 36px;
@@ -334,7 +344,11 @@ ion-icon {
 }
 
 
-
+@media (max-width: 500px) {
+    .top {
+        margin: auto;
+    }
+}
 
 /* boks imellom */
 
@@ -371,7 +385,7 @@ ion-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 28%;
+    width: 30%;
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
@@ -390,37 +404,40 @@ ion-icon {
 }
 
 
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meg {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
 
 #boks1 {
-    background-image: url("Bilder/elias.png");
+    background-image: url("bilder/elias.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #boks2 {
-    background-image: url("Bilder/jeppe.png");
+    background-image: url("bilder/jeppe.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #boks3 {
-    background-image: url("Bilder/eddi.png");
+    background-image: url("bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 .fit {
@@ -471,7 +488,6 @@ ion-icon {
     background-size: cover;
 }
 
-
 .komphead {
     font-size: 50px;
     font-weight: bold;
@@ -497,7 +513,6 @@ ion-icon {
     justify-content: center;
 
 }
-
 
 .komphead2 {
     font-size: 35px;
@@ -531,7 +546,6 @@ ion-icon {
     text-decoration: none;
 }
 
-
 .p1 {
     font-size: 20px;
     text-align: center;
@@ -539,7 +553,6 @@ ion-icon {
     line-height: 1.9;
     padding-top: 10px;
 }
-
 
 .row1 {
     display: flex;
@@ -561,7 +574,6 @@ ion-icon {
     overflow: hidden;
 }
 
-
 .slide img {
     width: 100%;
     border-radius: 10px;
@@ -582,6 +594,130 @@ ion-icon {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media (max-width: 1081px) and (min-width: 801px) {
+    .komp {
+        gap: 30px;
+    }
+
+    .box {
+        width: 75%;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+    }
+
+    .komphead {
+        font-size: 45px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .komphead1 {
+        font-size: 45px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .komphead2 {
+        font-size: 25px;
+    }
+
+    .p1 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .row1 img {
+        height: 250px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .komp {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .box {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+
+    }
+
+    .top a,
+    .top span {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 710px) {
+
+    .top a,
+    .top span {
+        font-size: 15px;
+    }
+
+    .komphead {
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .komphead1 {
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .komphead2 {
+        font-size: 30px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .komp {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .box {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .row1 img {
+        height: 200px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -643,6 +779,68 @@ ion-icon {
     .footer ul li {
         margin-bottom: 10px;
     }
+
+    @media (max-width: 400px) {
+
+        .komphead {
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        .komphead1 {
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        .komphead2 {
+            font-size: 20px;
+        }
+    
+        .p1 {
+            font-size: 14px;
+        }
+    
+        .komp {
+            flex-direction: column;
+            gap: 15px;
+        }
+    
+        .box {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            height: auto;
+            padding: 8px;
+            border-radius: 10px;
+        }
+    
+        .row1 img {
+            height: 150px;
+            width: auto;
+            margin: 3px;
+        }
+    
+        .footer {
+            padding: 15px 0;
+        }
+    
+        .footer ul {
+            flex-direction: column;
+            padding: 5px;
+        }
+    
+        .footer ul li {
+            margin-bottom: 5px;
+        }
+    
+        .footer a {
+            font-size: 12px;
+        }
+    }
+    
 
 }
 
@@ -747,16 +945,11 @@ ion-icon {
     margin-bottom: 30px;
 }
 
-.bakgrunn_side5 {
-    animation: fadeIn 4s ease forwards;
-
-}
 
 .bildepunkter {
     font-size: 40px;
     text-align: center;
     color: white;
-    font-family: 'OpenSans', sans-serif;
 }
 
 .liten {
@@ -768,21 +961,17 @@ ion-icon {
     border-radius: 10px;
     width: fit-content;
     padding: 20px;
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    transition: transform 0.5s;
+    margin: 40px 75px 20px 75px;
+    transition: ease-in-out 0.5s;
 }
 
-.bpcontainer:hover {
-    transform: scale(1.1) translateY(-0px);
-    text-decoration: none;
+.bpcontainer:hover{
+    background-color: #f5f5dc;
+    box-shadow: 0px 0px 8px whitesmoke;
 }
 
 .container_overskrift1 {
     font-size: 30px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 
 }
@@ -790,7 +979,6 @@ ion-icon {
 
 .container_underskrift1 {
     margin-top: 20px;
-    font-family: 'OpenSans', sans-serif;
     font-weight: 700;
     text-align: center;
     font-size: 15px;
@@ -800,13 +988,11 @@ ion-icon {
 .bildecontainer .container_underskrift {
 
     font-size: 15px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
 .bildecontainer .container_underskrift {
     font-size: 15px;
-    font-family: 'OpenSans', sans-serif;
     text-align: center;
 }
 
@@ -820,8 +1006,6 @@ ion-icon {
     height: 50vh;
     border-radius: 10px;
 }
-
-
 
 .bilde_container {
     display: flex;
@@ -851,8 +1035,9 @@ ion-icon {
     height: 100%;
 }
 
-.boks {
+.boksjeppe {
     display: flex;
+    animation: fadeIn 4s ease forwards;
 }
 
 aside {
@@ -906,6 +1091,61 @@ aside {
     align-items: center;
     flex-direction: column;
 }
+
+@media (max-width: 616px) {
+
+    .container_underskrift1{
+        font-size: 10px;
+    }
+
+    .container_overskrift1{
+        font-size: 20px;
+    }
+
+    .bildepunkter{
+        font-size: 25px;
+    }
+
+    .boksjeppe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jeppemain{
+        order: 1;
+    }
+
+    .jeppeaside{
+        order: 2;
+    }
+
+    .bakgrunn_side5{
+        background-image: cover;
+        background-repeat: repeat-y;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    #bilde{
+        width: 100%;
+        margin: 0px 75px 20px 75px;
+    }
+    }
+
+    @media(width<500px){
+        .bpcontainer{
+            width: 90%;
+            margin: auto;
+        }
+        #bilde{
+            width: 90%;
+            margin: 0;
+        }
+    }
 
 /* side 6*/
 
@@ -1000,3 +1240,87 @@ aside {
 .teksten {
     color: #ffffff;
 }
+
+@media (max-width: 500px) {
+<<<<<<< HEAD
+    .top {
+        flex-direction: column; 
+        align-items: flex-start; 
+=======
+
+    .eddi {
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .boks {
+        width: 90%;
+        /* Tilpass bredden til skjermen */
+        height: auto;
+        /* Gjør høyden fleksibel */
+        margin: 20px auto;
+        /* Sentrer boksen */
+        font-size: 14px;
+        box-shadow: 0px 2px 4px black;
+    }
+
+    .boks:hover {
+        transform: scale(1.1);
+        /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .eddiimg {
+        margin: 20px auto;
+        /* Sentrer bildet */
+        width: 90%;
+        /* Tilpass bredden til skjermen */
+        height: auto;
+        /* Oppretthold proporsjoner */
+        box-shadow: 0px 2px 4px black;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        /* Mindre ekspansjon ved hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .overskrift {
+        font-size: 50px;
+        margin-top: 50px;
+>>>>>>> 117604bd0a45e0f62722d1f2b117ea99ac97948c
+    }
+
+    .dropdown {
+        width: 100%; 
+        font-size: 14px; 
+    }
+
+    .dropdownmenu a {
+        display: block; 
+        padding: 5px 0; 
+    }
+
+    .edflex {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .bilde {
+        max-width: 100%; 
+        text-align: center; 
+    }
+
+    .teksten {
+        width: 100%; 
+    }
+
+    .boks67 {
+        font-size: 14px; 
+    }
+}
+
