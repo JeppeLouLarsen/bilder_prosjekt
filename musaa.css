@@ -228,7 +228,7 @@ h1, h2{
 
 
 .bitch {
-    background-image: url("Bilder/cover.jpg");
+    background-image: url("bilder/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -418,21 +418,21 @@ ion-icon {
 
 
 #boks1 {
-    background-image: url("Bilder/elias.png");
+    background-image: url("bilder/elias.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #boks2 {
-    background-image: url("Bilder/jeppe.png");
+    background-image: url("bilder/jeppe.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #boks3 {
-    background-image: url("Bilder/eddi.png");
+    background-image: url("bilder/eddi.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
