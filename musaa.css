@@ -1239,11 +1239,7 @@ aside {
 }
 
 @media (max-width: 700px){
-    .top {
-        flex-direction: column; 
-        align-items: flex-start; 
-    }
-
+    
     .eddi {
         background-size: contain;
         display: flex;
@@ -1282,31 +1278,24 @@ aside {
         margin-top: 50px;
     }
 
-    .dropdown {
-        width: 100%; 
-        font-size: 14px; 
-    }
-
-    .dropdownmenu a {
-        display: block; 
-        padding: 5px 0; 
-    }
-
     .edflex {
         flex-direction: column; 
         align-items: center; 
     }
 
-    .bilde {
-        max-width: 100%; 
-        text-align: center; 
+    .rgb img {
+        width: 90%; 
+        text-align: center;
+        margin: auto; 
     }
 
     .teksten {
-        width: 100%; 
+        width: 90%; 
     }
 
     .boks67 {
         font-size: 14px; 
+        width: 90%;
+        margin: auto;
     }
 }
