@@ -945,11 +945,6 @@ ion-icon {
     margin-bottom: 30px;
 }
 
-.bakgrunn_side5 {
-    
-
-}
-
 .bildepunkter {
     font-size: 40px;
     text-align: center;
@@ -1174,6 +1169,14 @@ aside {
     background-size: cover;
 }
 
+.edflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
 .boks67 {
     border: 5px solid #ffffff;
     background-color: #81929b;
@@ -1182,7 +1185,6 @@ aside {
     text-align: center;
     justify-content: center;
     align-content: center;
-    margin-left: 150px;
     border-radius: 25px;
     box-shadow: 0px 4px 8px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1197,8 +1199,6 @@ aside {
 }
 
 .rgb img {
-    margin-left: 750px;
-    margin-top: -150px;
     width: 500px;
     height: 300px;
     box-shadow: 0px 4px 8px black;
@@ -1239,8 +1239,8 @@ aside {
     color: #ffffff;
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 700px){
+    
     .eddi {
         background-size: contain;
         display: flex;
@@ -1251,34 +1251,26 @@ aside {
 
     .boks {
         width: 90%;
-        /* Tilpass bredden til skjermen */
         height: auto;
-        /* Gjør høyden fleksibel */
-        margin: 20px auto;
-        /* Sentrer boksen */
+        margin: auto;
         font-size: 14px;
         box-shadow: 0px 2px 4px black;
     }
 
     .boks:hover {
         transform: scale(1.1);
-        /* Mindre ekspansjon ved hover */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .eddiimg {
-        margin: 20px auto;
-        /* Sentrer bildet */
+        margin: auto;
         width: 90%;
-        /* Tilpass bredden til skjermen */
         height: auto;
-        /* Oppretthold proporsjoner */
         box-shadow: 0px 2px 4px black;
     }
 
     img:hover {
         transform: scale(1.1);
-        /* Mindre ekspansjon ved hover */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
@@ -1287,4 +1279,24 @@ aside {
         margin-top: 50px;
     }
 
+    .edflex {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .rgb img {
+        width: 90%; 
+        text-align: center;
+        margin: auto; 
+    }
+
+    .teksten {
+        width: 90%; 
+    }
+
+    .boks67 {
+        font-size: 14px; 
+        width: 90%;
+        margin: auto;
+    }
 }
